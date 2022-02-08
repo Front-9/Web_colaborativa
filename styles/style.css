@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+}
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#6c4e74;
+	margin-bottom:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+header nav {
+	float:right;
+	line-height:200px;
+}
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#640c31;
+	border-radius:50px;
+}
+
+header img{
+    max-height: 90px;
+}
+
+footer{
+    background:#6c4e74;
+    padding: 80px;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.imgP{
+    width: 100px;
+    height: 120px;
+}
+
+.frase{
+    color: #640c31;
+}
+
+.equipo{
+    color:#0e0a0a;
+    width: 50%;
+    height: 20%;
+    background-color: #746379;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conformado{
+    color:#0e0a0a;
+    width: 50%;
+    height: 20%;
+    background-color: #8e7a94;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+    width: 50%;
+    background-color: rgb(141, 111, 168);
+    border-radius: 10%;
+    margin-top: 5%;
+    line-height: 2rem;
+
+}
+
+
+
+
